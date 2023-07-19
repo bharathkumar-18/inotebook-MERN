@@ -1,7 +1,7 @@
 //Import mongoose
 const mongoose = require('mongoose');
 // Get MongoDB URI
-const mongoURI = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.1";
+const mongoURI = "mongodb://127.0.0.1:27017/inotebook?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.1";
 
 // Connect to MongoDB
 const connectToMongo = ()=>{

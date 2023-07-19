@@ -1,6 +1,9 @@
 //Import mongoose
 const mongoose = require('mongoose');
 
+//Import Schema to make mongoose understand to put data into MongoDB
+const { Schema } = mongoose;
+
 //Create a schema to store your data
 const UserSchema = new Schema({
     personname:{
